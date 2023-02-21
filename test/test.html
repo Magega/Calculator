@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="test.css">
+    <link rel="stylesheet" href="media.css">
+</head>
+<body>
+    <div class="container">
+
+        <!-- start results for mobile -->
+        <div class="results-hiden">
+            <div class="result-backblaze result-backblaze-first">
+                <h3>backblaze.com: </h3>
+                <img src="./img/backblaze_icon_transparent.webp" alt="">
+                <div class="scale" id="scale-one-mobile"></div>
+                <div class="result-container">
+                    <div class="result" id="result-one-mobile">7.00</div>
+                    <p>$</p>
+                </div>
+            </div>
+            <div class="result-backblaze">
+                <h3>bunny.net: </h3>
+                <img src="./img/bunny-net.webp" alt="">
+                <select id="hddssdMobile" name="hddssd">
+                  <option value="hdd">HDD</option>
+                  <option value="ssd">SSD</option>
+                </select>
+                <div class="scale scale-two" id="scale-two-mobile"></div>
+                <div class="result-container">
+                    <div class="result" id="result-two-mobile">0.00</div>
+                    <p>$</p>
+                </div>
+            </div>
+            <div class="result-backblaze">
+                <h3>scaleway.com:</h3>
+                <img src="./img/5185491.png" alt="">
+                <select id="multisingleMobile" name="multisingle">
+                  <option value="multi">Multi</option>
+                  <option value="single">Single</option>
+                </select>   
+                <div class="scale scale-three" id="scale-three-mobile"></div>
+                <div class="result-container">
+                    <div class="result" id="result-three-mobile">0.00</div>
+                    <p>$</p>
+                </div>
+            </div>    
+            <div class="result-backblaze">
+                <h3>vultr.com:</h3>
+                <img src="./img/vultr.webp.crdownload" alt="">
+                <div class="scale scale-four" id="scale-four-mobile"></div>
+                <div class="result-container">
+                    <div class="result" id="result-four-mobile">5.00</div>
+                    <p>$</p>
+                </div>
+            </div>
+          </div>
+        <!-- finish results for mobile -->
+
+        <!-- start ranges for all -->
+        <div class="ranges">
+            <div class="range-container">
+                <label for="storage-input">Storage:</label>
+                <input type="range" id="storage-input" name="storage" min="0" max="1000" value="0">
+                <div id="storage-value">0</div>
+                <p>GB</p>
+            </div>
+            <div class="range-container">
+                <label for="transfer-input">Transfer:</label>
+                <input type="range" id="transfer-input" name="transfer" min="0" max="1000" value="0">
+                <div id="transfer-value">0</div>
+                <p>GB</p>
+            </div>
+        </div>
+        <!-- finish ranges for all -->
+
+        <!-- start results for desktop -->
+        <div class="results">
+            <div class="result-backblaze result-backblaze-first">
+                <h3>backblaze.com: </h3>
+                <img src="./img/backblaze_icon_transparent.webp" alt="">
+                <div class="scale" id="scale-one"></div>
+                <div class="result-container">
+                    <div class="result" id="result-one">7.00</div>
+                    <p>$</p>
+                </div>
+            </div>
+            <div class="result-backblaze">
+                <h3>bunny.net: </h3>
+                <img src="./img/bunny-net.webp" alt="">
+                <select id="hddssd" name="hddssd">
+                  <option value="hdd">HDD</option>
+                  <option value="ssd">SSD</option>
+                </select>
+                <div class="scale scale-two" id="scale-two"></div>
+                <div class="result-container">
+                    <div class="result" id="result-two">0.00</div>
+                    <p>$</p>
+                </div>
+            </div>
+            <div class="result-backblaze">
+                <h3>scaleway.com:</h3>
+                <img src="./img/5185491.png" alt="">
+                <select id="multisingle" name="multisingle">
+                  <option value="multi">Multi</option>
+                  <option value="single">Single</option>
+                </select>
+                <div class="scale scale-three" id="scale-three"></div>
+                <div class="result-container">
+                    <div class="result" id="result-three">0.00</div>
+                    <p>$</p>
+                </div>
+            </div>
+            <div class="result-backblaze">
+                <h3>vultr.com:</h3>
+                <img src="./img/vultr.webp.crdownload" alt="">
+                <div class="scale scale-four" id="scale-four"></div>
+                <div class="result-container">
+                    <div class="result" id="result-four">5.00</div>
+                    <p>$</p>
+                </div>
+            </div>
+          </div>
+        <!-- finish results for desktop -->
+
+        </div>
+      <script src="/test.js"></script>
+</body>
+</html>
